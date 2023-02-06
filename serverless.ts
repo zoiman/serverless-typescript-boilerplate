@@ -54,11 +54,12 @@ const serverlessConfiguration: AWS = {
     'serverless-stage-manager',
     'serverless-prune-plugin',
     'serverless-plugin-aws-alerts',
-    'serverless-plugin-canary-deployments', // Remove this if you want to disable Canary Deployments
   ],
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',
+    region: 'eu-central-1',
+    tags: { owner: 'boilerplate' },
     iamRoleStatements: [
       {
         Effect: 'Allow',

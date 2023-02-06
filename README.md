@@ -9,7 +9,6 @@ Some personal modifications are:
 - Git hooks with [Husky](https://typicode.github.io/husky/), running ESLint, Prettier and Tests on every commit.
 - Created a directory for Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
 - Open API documentation with [redoc-cli](https://github.com/Redocly/redoc).
-- Canary Deployments with [serverless-plugin-canary-deployments](https://github.com/davidgf/serverless-plugin-canary-deployments).
 - CloudWatch Alerts with [serverless-plugin-aws-alerts](https://github.com/ACloudGuru/serverless-plugin-aws-alerts).
 - Prune of Old Lambda Versions with [serverless-prune-plugin](https://github.com/claygregory/serverless-prune-plugin).
 
@@ -86,4 +85,3 @@ The project code base is mainly located within the `src` folder. This folder is 
 - [redoc-cli](https://github.com/Redocly/redoc) - provides a tool to configure and write our documentation using [OpenAPI Specification](https://swagger.io/specification).
 - [serverless-prune-plugin](https://github.com/claygregory/serverless-prune-plugin) - prunes old lambda versions.
 - [serverless-plugin-aws-alerts](https://github.com/ACloudGuru/serverless-plugin-aws-alerts) - creates alerts automatically in CloudWatch.
-- [serverless-plugin-canary-deployments](https://github.com/davidgf/serverless-plugin-canary-deployments) - implement canary deployments of Lambda functions with AWS CodeDeploy.
