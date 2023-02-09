@@ -13,6 +13,7 @@ Some personal modifications are:
 - Prune of Old Lambda Versions with [serverless-prune-plugin](https://github.com/claygregory/serverless-prune-plugin).
 - [aws-vault](https://github.com/99designs/aws-vault) for using securely store and access AWS credentials in a development environment.
 - [mermaid](https://mermaid.js.org/intro/) for rendering graphs in markdown files
+- [httpie](https://github.com/httpie/httpie) http client for the terminal (like curl just better)
 
 ## Installation/deployment instructions
 
@@ -48,6 +49,11 @@ curl --location --request POST 'https://myApiEndpoint/dev/hello' \
 --data-raw '{
     "name": "Frederic"
 }'
+```
+Another way is to use `httpie`:
+
+```
+https https://myApiEndpoint/play/hello < src/functions/hello/mock.json
 ```
 
 ## Template features
