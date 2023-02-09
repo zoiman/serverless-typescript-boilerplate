@@ -12,6 +12,7 @@ Some personal modifications are:
 - CloudWatch Alerts with [serverless-plugin-aws-alerts](https://github.com/ACloudGuru/serverless-plugin-aws-alerts).
 - Prune of Old Lambda Versions with [serverless-prune-plugin](https://github.com/claygregory/serverless-prune-plugin).
 - [aws-vault](https://github.com/99designs/aws-vault) for using securely store and access AWS credentials in a development environment.
+- [mermaid](https://mermaid.js.org/intro/) for rendering graphs in markdown files
 
 ## Installation/deployment instructions
 
@@ -87,3 +88,15 @@ The project code base is mainly located within the `src` folder. This folder is 
 - [redoc-cli](https://github.com/Redocly/redoc) - provides a tool to configure and write our documentation using [OpenAPI Specification](https://swagger.io/specification).
 - [serverless-prune-plugin](https://github.com/claygregory/serverless-prune-plugin) - prunes old lambda versions.
 - [serverless-plugin-aws-alerts](https://github.com/ACloudGuru/serverless-plugin-aws-alerts) - creates alerts automatically in CloudWatch.
+
+
+### Skirmish
+
+#### Mermaid example
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
