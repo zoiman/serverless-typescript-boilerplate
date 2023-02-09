@@ -19,7 +19,7 @@ Some personal modifications are:
 
 - Run `yarn` to install the project dependencies
 - Run `yarn sls deploy` to deploy this stack to AWS
-- Run `yarn deploy <profile> <deploy | remove> <stage>` to securely deploy or remove to AWS using aws-vault
+- Run `yarn sls <profile> <deploy | remove> <stage>` to securely deploy or remove to AWS using aws-vault
 
 ## Test your service
 
