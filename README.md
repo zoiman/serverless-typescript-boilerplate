@@ -11,11 +11,13 @@ Some personal modifications are:
 - Open API documentation with [redoc-cli](https://github.com/Redocly/redoc).
 - CloudWatch Alerts with [serverless-plugin-aws-alerts](https://github.com/ACloudGuru/serverless-plugin-aws-alerts).
 - Prune of Old Lambda Versions with [serverless-prune-plugin](https://github.com/claygregory/serverless-prune-plugin).
+- [aws-vault](https://github.com/99designs/aws-vault) for using securely store and access AWS credentials in a development environment.
 
 ## Installation/deployment instructions
 
 - Run `yarn` to install the project dependencies
 - Run `yarn sls deploy` to deploy this stack to AWS
+- Run `yarn deploy <profile> <stage>` to securely deploy to AWS using aws-vault
 
 ## Test your service
 
