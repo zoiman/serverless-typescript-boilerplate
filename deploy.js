@@ -4,7 +4,7 @@ const { spawn } = require('child_process');
 const args = process.argv.slice(2);
 
 const child = spawn(
-  `aws-vault exec ${args[0]} -- sls ${args[1]} --stage ${args[2]}`,
+  `aws-vault exec ${args[0]} -- npx sls ${args[1]} --stage ${args[2]}`,
   [],
   { shell: true },
 );

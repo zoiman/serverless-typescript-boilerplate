@@ -19,3 +19,6 @@ coverage
 .env*
 # Webstorm
 .idea/
+
+# macos
+.DS_Store
